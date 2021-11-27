@@ -3,7 +3,7 @@ int main()
 {
     float x = 0.1f;
     if (x == 0.1)
-        printf("IF");
+        printf("message");
     else if (x == 0.1f)
         printf("ELSE IF");
     else
