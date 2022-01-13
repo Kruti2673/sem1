@@ -2,9 +2,9 @@
 
 int main()
 {
-int i,n=1,a,b,c;
+long  int i,n=1,a,b,c;
 printf("Enter n:");
-scanf("%d",& n);
+scanf("%ld",& n);
 
   a=1;
   b=1;

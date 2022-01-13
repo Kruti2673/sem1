@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i,j,n;
+    int i,j,n,k;
     printf("enetr n:");
     scanf("%d",&n);
 
@@ -10,9 +10,9 @@ int main()
     {
         for(j=1;j<n;j++)
         {
-            printf("");
+            printf(" ");
         }
-        for(j=1;j<=i;i++)
+        for(k=1;k<=i;k++)
         {
             printf("*");
         }

@@ -10,18 +10,18 @@ int main()
     {
         for(k=1;k<=n;k++)
         {
-            printf(" ");
+            printf("");
         }
         for(j=1;j<=i;j++)
         {
             if(i%2!=0)
             {
-                printf("%d",c);
+                printf("%d ",c);
                 c++;
             }
             else
             {
-                printf("%c",d);
+                printf("%c ",d);
                 d++;
             }
         }
