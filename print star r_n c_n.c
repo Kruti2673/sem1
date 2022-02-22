@@ -2,18 +2,21 @@
 
 int main()
 {
-    int i,j,n;
-    printf("enetr n:");
-    scanf("%d",&n);
+        int n,i,j,k;
+        printf("Enter n:");
+        scanf("%d",&n);
 
-    for(j=1;j<=n;j++)
-    {
         for(i=1;i<=n;i++)
         {
-            printf("*");
+                for(k=1;k<=n-i;k++)
+                {
+                    printf(" ");
+                }
+                for(j=1;j<=i;j++)
+                {
+                        printf(" * ");
+                }
+                printf("\n");
         }
-        printf("\n");
-    }
-    return 0;
-
-} 
+        return 0;
+}

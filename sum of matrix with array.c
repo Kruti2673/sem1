@@ -1,55 +1,28 @@
 #include<stdio.h>
 int main()
 {
-    int m[3][3],i,j,n[3][3],sum=0;
+    int a[3][3],b[3][3],c[3][3],i,j;
 
     for(i=0;i<3;i++)
     {
         for(j=0;j<3;j++)
         {
-            printf("enter n:");
-            scanf("%d",&m[i][j]);
+            printf("enter a[%d][%d] :",i,j);
+            scanf("%d",&a[i][j]);
+            printf("enter b[%d][%d] :",i,j);
+            scanf("%d",&b[i][j]);
+            c[i][j]=a[i][j]+b[i][j];
         }
     }
+    printf("addition of 2 matrices as follows:\n");
 
     for(i=0;i<3;i++)
     {
         for(j=0;j<3;j++)
         {
-            printf("%d\t",m[i][j]);
+            printf("%d\t",c[i][j]);
         }
         printf("\n");
     }
-
-        for(i=0;i<3;i++)
-    {
-        for(j=0;j<3;j++)
-        {
-            printf("enter n:");
-            scanf("%d",&n[i][j]);
-        }
-    }
-
-    for(i=0;i<3;i++)
-    {
-        for(j=0;j<3;j++)
-        {
-            printf("%d\t",n[i][j]);
-        }
-        printf("\n");
-    }
-
-
-    printf("following matrix is answer:\n");
-
-    for(i=0;i<3;i++)
-    {
-        for(j=0;j<3;j++)
-        {
-            sum=m[i][j]+n[i][j];
-            printf("%d\n",sum);
-        }
-        printf("\n");
-    }
-
+    return 0;
 }

@@ -2,7 +2,8 @@
 int main()
 {
     int n1,n2,i,j,flag;
-    printf("enter two interval no;");
+    printf("enter number n1:");
+    printf("enter number n2:");
     scanf("%d %d",&n1,&n2);
     for(i=n1+1;i<n2;i++)
     {
